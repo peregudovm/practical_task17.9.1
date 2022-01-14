@@ -62,4 +62,4 @@ while True:
 
 array = [i for i in range(1, 1000)]
 
-print(binary_search(array, element, 0, 999))
+print(binary_search(array, element, 0, len(array)))
